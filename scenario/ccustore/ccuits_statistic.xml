@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/04/21 11:17:17 by Eclipse SUMO GUI Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\John\src\Sumo\bin\scenario\lust.net.xml"/>
+        <route-files value="C:\Users\John\src\Sumo\bin\scenario\buslines.rou.xml,C:\Users\John\src\Sumo\bin\scenario\ccustore/lust.rou.xml"/>
+        <additional-files value="C:\Users\John\src\Sumo\bin\scenario\vtypes.add.xml,C:\Users\John\src\Sumo\bin\scenario\busstops.add.xml,C:\Users\John\src\Sumo\bin\scenario\e1detectors.add.xml,C:\Users\John\src\Sumo\bin\scenario\lust.poly.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\Users\John\src\Sumo\bin\scenario\ccustore/ccuits_full.summary.xml"/>
+        <tripinfo-output value="C:\Users\John\src\Sumo\bin\scenario\ccustore/ccuits_full.tripinfo.xml"/>
+        <statistic-output value="C:\Users\John\src\Sumo\bin\scenario\ccustore/ccuits_statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="27600"/>
+        <end value="29000"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="25"/>
+        <ignore-junction-blocker value="20"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+        <weights.priority-factor value="1.5"/>
+        <device.rerouting.probability value="0.7"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="C:\Users\John\src\Sumo\bin\scenario\dua.actuated.log"/>
+    </report>
+
+    <gui_only>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="5920" inserted="5531" running="3887" waiting="240"/>
+    <teleports total="2" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="2" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics routeLength="5926.16" speed="5.93" duration="448.21" waitingTime="77.97" timeLoss="136.36" departDelay="6.23" departDelayWaiting="-1"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

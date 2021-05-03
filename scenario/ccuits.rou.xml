@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/26/20 15:23:08 by Eclipse SUMO duarouter Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="scenario/lust.net.xml"/>
+        <route-files value="scenario/trips.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="scenario/ccuits.rou.xml"/>
+        <alternatives-output value="scenario/ccuits.rou.alt.xml"/>
+        <intermodal-weight-output value="ccustore/weights.txt"/>
+        <write-trips value="true"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="1625993_25" depart="25000.00" from="-30852" to="-31944#6"/>
+</routes>

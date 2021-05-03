@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/26/20 16:29:47 by Eclipse SUMO duarouter Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="scenario/lust.net.xml"/>
+        <route-files value="scenario/trips.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="scenario/ccustore/ccuits.rou.xml"/>
+        <alternatives-output value="scenario/ccustore/ccuits.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="1625993_25" depart="25000.00">
+        <route edges="-30852 -30462 -31634 -32856 -30722 -31272#6 -30892#17 -30892#18 -30892#19 -30892#20 -30892#21 -30892#22 -30892#23 -30892#24 -30892#25 -30892#26 -31680#3 -31680#4 -31680#1 -32532 -32848 -31078#1 -31260 -30324 -31110 -30612 -30994#1 -31502 -31712#1 -31794#0 -32150 -31944#0 -31944#1 -31944#2 -31944#3 -31944#4 -31944#5 -31944#6"/>
+    </vehicle>
+</routes>

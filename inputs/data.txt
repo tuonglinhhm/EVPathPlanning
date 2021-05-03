@@ -1,0 +1,33 @@
+node A
+node B
+node C
+node D
+node E
+node F
+node G
+node H
+node I
+node J
+node K
+node L
+node M
+node N
+arc A B 5
+arc B C 5
+arc A F 10
+arc B E 10
+arc C D 10
+arc D E 7
+arc D G 5
+arc E F 3
+arc F H 5
+arc G I 4
+arc H G 10
+arc H K 5
+arc I J 5
+arc I L 12
+arc J M 11
+arc K J 5
+arc K N 10
+arc L M 5
+arc M N 5
