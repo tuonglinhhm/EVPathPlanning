@@ -24,7 +24,7 @@ Step 3: For each suggested path, create a vehicle entry in lust.rou.xml at the t
        
    ```<vehicle id="ccu202011281" type="police" depart="21900.00" departPos="87.40" departSpeed="20.00" arrivalPos="40.86">
     <route edges="-30852 -30462 --30768#1 --30768#0 -31230#2 -32628 --31272#2 --31272#1 --31272#0 -30528#21 -30528#22 -30528#23 -31846#0 -31846#1 -31904#0 -31904#1 -31904#2 -30694#3 -32696#0 -32696#1 -31196#0 -31196#1 -30332#0"/>
-    </vehicle>  ```
+    </vehicle>```
 		
 Step 3: Set up the TLS program : tlsProgram.xml
 
